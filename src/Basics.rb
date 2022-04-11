@@ -83,3 +83,10 @@ hash.each{|key, value|
     print(key, " : ", value, "\n");
 }
 print(hash.keys, "\n");
+
+
+# 整数 → 少数
+print(10.to_f, "\n");
+
+# 少数 → 整数(切り捨て)
+print(12.67.to_i, "\n");
