@@ -72,3 +72,14 @@ array.each{|item|
 
 personals = [["taro", 20], ["yamada", 21], ["tosimitu", 22]];
 print(personals[0][0], "\n");
+
+
+hash = {"Yamada" => 21, "taro" => 22, "satou" => 20};
+print(hash["Yamada"], "\n");
+hash.store("Yamada", 201);
+print(hash["Yamada"], "\n");
+print(hash.length, " : ", hash.size, "\n");
+hash.each{|key, value|
+    print(key, " : ", value, "\n");
+}
+print(hash.keys, "\n");
